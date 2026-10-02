@@ -52,7 +52,6 @@ The onboard ESP32 regulator then steps it down safely to 3.3V for logic operatio
 [7.4V Battery] ---> [L298N VCC] ---> [L298N 5V Out] ---> [ESP32 VIN]
 The tl;dr is: Finalized the complete system schema, selected all required local components from Amazon.eg to lock the BOM at $30.00, and mapped out the initial power distribution topology for the upcoming chassis design.
 
-Time spent this session: 1.0 hour
 
 ### 2026-10-01 — October 1: 3D Chassis CAD Modeling in Onshape
 
@@ -72,7 +71,6 @@ Added mounting holes: 2 front holes (3.2mm diameter, 55mm spacing) for the 5-cha
 
 Extruded the completed 2D sketch into a solid 2.5mm plate and exported the final model to .STL format.
 
-Time spent this session: 2.0 hours
 
 ![Screenshot 2026-10-01 171456](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3fkneGGF1fpib02rpKr0wXXE4FsqDiaE/39f52e8980762c9bed17d4484026f87f7a9a5536403095648478b7f036fb0a18.png)
 
@@ -97,7 +95,6 @@ Tested state machine logic: Forward motion on center trigger, differential turns
 Verified real-time telemetry via Serial Monitor at 115200 baud with ESP32Servo library integration.
 Wokwi Simulation Link: [https://wokwi.com/projects/476690097413869569]
 
-Time spent this session: 3.0 hours
 
 ![Screenshot 2026-10-01 175816](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3fkneGGF1fpib02rpKr0wXXE4FsqDiaE/5619ec075533ed5f9c79cb93d9ae58c90affd39572b921ad22bbd0445fa1cfef.png)
 
